@@ -1,0 +1,13 @@
+Package: vlmcsd
+Version: svn1111-1
+Depends: libc
+Source: feeds/azuwis/net/vlmcsd
+Section: net
+Maintainer: Zhong Jianxin <azuwis@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 21085
+Filename: vlmcsd_svn1111-1_mipsel_24kc.ipk
+Size: 21764
+SHA256sum: 178857c09ca320709f279309567d599c5c531991df05d9855e5b014565d0d778
+Description:  KMS Emulator
+
