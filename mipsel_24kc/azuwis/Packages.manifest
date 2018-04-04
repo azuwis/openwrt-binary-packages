@@ -5,9 +5,9 @@ Source: feeds/azuwis/net/vlmcsd
 Section: net
 Maintainer: Zhong Jianxin <azuwis@gmail.com>
 Architecture: mipsel_24kc
-Installed-Size: 21085
+Installed-Size: 21086
 Filename: vlmcsd_svn1111-1_mipsel_24kc.ipk
 Size: 21764
-SHA256sum: 178857c09ca320709f279309567d599c5c531991df05d9855e5b014565d0d778
+SHA256sum: 2b43c0978e3c182a15f3c711e5696b389ddf4d77058f1d4f6343a625d6a7a892
 Description:  KMS Emulator
 
