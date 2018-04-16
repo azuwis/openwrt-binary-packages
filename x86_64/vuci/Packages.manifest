@@ -1,1 +1,29 @@
+Package: vuci-rpc-base
+Version: 1
+Depends: libc, rpcd, rpcd-mod-iwinfo, rpcd-mod-rpcsys, uhttpd, uhttpd-mod-ubus
+Source: feeds/vuci/vuci-rpc-base
+License: LGPL-2.1
+Section: vuci
+Maintainer: Jianhui Zhao <jianhuizhao329@gmail.com>
+Architecture: x86_64
+Installed-Size: 20995
+Filename: vuci-rpc-base_1_x86_64.ipk
+Size: 21826
+SHA256sum: 07dd40533d5915e0091a0140eb67d21cd2bdc8370b0b8c7df8d670a8072a0fb9
+Description:  Provides the basic RPC infrastructure to run VUCI.
+
+Package: vuci-ui-base
+Version: 1
+Depends: libc, vuci-rpc-base
+Source: feeds/vuci/vuci-ui-base
+License: LGPL-2.1
+Section: vuci
+Maintainer: Jianhui Zhao <jianhuizhao329@gmail.com>
+Architecture: x86_64
+Installed-Size: 503568
+Filename: vuci-ui-base_1_x86_64.ipk
+Size: 501713
+SHA256sum: e982f668d331939ea9597d2d9189067aa2951143b5e549fedba5580d6a057f64
+Description:  Provides the VUCI Javascript UCI web interface with standard functionality.
+ It is built using vue.js2 and element.
 
