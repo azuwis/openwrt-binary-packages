@@ -1,0 +1,48 @@
+Package: luci2-io-helper
+Version: 20141219
+Depends: libc, libubox, libubus
+License: Apache-2.0
+Section: luci2
+Architecture: x86_64
+Installed-Size: 5986
+Filename: luci2-io-helper_20141219_x86_64.ipk
+Size: 6760
+SHA256sum: ec4c0ba75ef4a2eecfd8c84175a09514f9642d747d8bab554f2dc498a6920a2f
+Description:  Provides a CGI multicall executable to handle large binary up/download tasks.
+
+Package: luci2-rpc-base
+Version: 20151214
+Depends: libc, rpcd, libubox, libubus
+License: Apache-2.0
+Section: luci2
+Architecture: x86_64
+Installed-Size: 18860
+Filename: luci2-rpc-base_20151214_x86_64.ipk
+Size: 19717
+SHA256sum: 434b4ee62e69e1b576935e4ce12b661f63a463548e4ef6af583044fed2577eac
+Description:  Provides the basic RPC infrastructure to run LuCI2.
+
+Package: luci2-rpc-bwmon
+Version: 20150125
+Depends: libc, rpcd, libubox, libubus
+License: Apache-2.0
+Section: luci2
+Architecture: x86_64
+Installed-Size: 2848
+Filename: luci2-rpc-bwmon_20150125_x86_64.ipk
+Size: 3654
+SHA256sum: 23ce92ed751622f9a9ade93a11acbfccf1d6cc0ad200f22b9b17593b0622b724
+Description:  Provides bandwidth monitoring data via the RPC server.
+
+Package: luci2-ui-base
+Version: 2018-03-07-6d42ca3
+Depends: libc, rpcd, rpcd-mod-iwinfo, rpcd-mod-rpcsys, uhttpd, uhttpd-mod-ubus, libubox, libubus, luci2-rpc-base, luci2-rpc-bwmon, luci2-io-helper
+License: Apache-2.0
+Section: luci2
+Architecture: x86_64
+Installed-Size: 340084
+Filename: luci2-ui-base_2018-03-07-6d42ca3_x86_64.ipk
+Size: 337981
+SHA256sum: 8f158051376ba862baa8956d703eea6107d8520619e673de5b7bc0ab4700c9c4
+Description:  Provides the LuCI2 web interface with standard functionality.
+
